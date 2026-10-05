@@ -1,0 +1,462 @@
+/* =========================
+   CONTACT HERO
+========================= */
+
+.contact-hero {
+    margin-top: 80px;
+    min-height: 400px;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)),
+        url("../images/blocks2.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.contact-hero-content {
+    max-width: 750px;
+    color: white;
+}
+
+.contact-hero-content .hero-label {
+    display: inline-block;
+    color: rgb(9, 245, 9);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.contact-hero-content h1 {
+    font-size: 52px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.contact-hero-content h1 span {
+    display: block;
+    color: goldenrod;
+}
+
+.contact-hero-content p {
+    max-width: 650px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+/* =========================
+   CONTACT SECTION
+========================= */
+
+.contact {
+    padding: 70px 8%;
+    background-color: #f7f7f7;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 50px;
+}
+
+.section-heading span {
+    color: rgb(9, 245, 9);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.section-heading h2 {
+    color: blue;
+    font-size: 36px;
+    margin: 10px 0 15px;
+}
+
+.section-heading p {
+    color: #666;
+    line-height: 1.7;
+}
+
+
+/* =========================
+   CONTACT GRID
+========================= */
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 40px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+/* =========================
+   CONTACT INFORMATION
+========================= */
+
+.contact-info {
+    background-color: #222;
+    color: white;
+
+    padding: 35px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+}
+
+.contact-info h3 {
+    color: goldenrod;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.contact-info>p {
+    color: #ddd;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+
+/* CONTACT ITEMS */
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    padding: 15px 0;
+
+    border-bottom: 1px solid #444;
+}
+
+.contact-icon {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: goldenrod;
+
+    border-radius: 50%;
+
+    font-size: 20px;
+}
+
+.contact-item strong {
+    display: block;
+    color: goldenrod;
+    margin-bottom: 3px;
+}
+
+.contact-item a,
+.contact-item span {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    color: rgb(9, 245, 9);
+}
+
+
+/* =========================
+   BUSINESS HOURS
+========================= */
+
+.business-hours {
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.business-hours h4 {
+    color: goldenrod;
+    margin-bottom: 12px;
+}
+
+.business-hours p {
+    color: #ddd;
+    margin-bottom: 5px;
+}
+
+
+/* =========================
+   CONTACT FORM CONTAINER
+========================= */
+
+.contact-form-container {
+    background-color: white;
+
+    padding: 35px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.10);
+}
+
+.contact-form-container h3 {
+    color: blue;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.contact-form-container>p {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+.contact-form {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-label {
+    display: block;
+
+    color: #333;
+
+    font-weight: bold;
+
+    margin-bottom: 7px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+
+    width: 100%;
+
+    padding: 13px 15px;
+
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+
+    border: 2px solid #ddd;
+
+    border-radius: 6px;
+
+    background-color: white;
+
+    color: #333;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+
+    border-color: goldenrod;
+
+    box-shadow: 0 0 0 3px rgba(218, 165, 32, 0.15);
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 140px;
+}
+
+
+/* =========================
+   SEND BUTTON
+========================= */
+
+.btn-send {
+
+    width: 100%;
+
+    padding: 14px;
+
+    background-color: rgb(9, 245, 9);
+
+    color: white;
+
+    border: none;
+
+    border-radius: 7px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.btn-send:hover {
+    background-color: green;
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   CTA
+========================= */
+
+.cta {
+    padding: 60px 8%;
+
+    background-color: goldenrod;
+
+    color: white;
+
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.cta p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.cta .btn {
+    display: inline-block;
+
+    padding: 13px 25px;
+
+    border-radius: 7px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.cta .btn-primary {
+    background-color: blue;
+    color: white;
+}
+
+.cta .btn-secondary {
+    background-color: rgb(9, 245, 9);
+    color: white;
+}
+
+.cta .btn:hover {
+    transform: translateY(-2px);
+    background-color: #222;
+}
+
+
+/* =========================
+   ACTIVE NAVIGATION
+========================= */
+
+.nav-links a.active {
+    color: white;
+}
+
+
+/* =========================
+   COPYRIGHT
+========================= */
+
+.copyright {
+    grid-column: 1 / -1;
+
+    text-align: center;
+
+    border-top: 1px solid #444;
+
+    margin-top: 20px;
+
+    padding-top: 20px;
+
+    color: #aaa;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 800px) {
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-hero-content h1 {
+        font-size: 42px;
+    }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    .contact-hero {
+        min-height: 450px;
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .contact-hero-content h1 {
+        font-size: 34px;
+    }
+
+    .contact-hero-content p {
+        font-size: 16px;
+    }
+
+    .contact {
+        padding: 50px 5%;
+    }
+
+    .section-heading h2 {
+        font-size: 28px;
+    }
+
+    .contact-info,
+    .contact-form-container {
+        padding: 25px;
+    }
+
+    .cta h2 {
+        font-size: 28px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+    }
+
+    .cta .btn {
+        width: 100%;
+    }
+
+}
