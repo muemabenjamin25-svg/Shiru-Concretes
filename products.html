@@ -21,6 +21,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet"href="css/chat.css">
 
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.png">
@@ -185,4 +186,76 @@
         </div>
     
     </footer>
+    <!-- ================= CHATBOT ================= -->
+    
+    <!-- Floating Chat Button -->
+    <button class="chatbot-toggle" id="chatbotToggle" aria-label="Open chatbot">
+        💬
+    </button>
+    
+    
+    <!-- Chatbot Window -->
+    <div class="chatbot" id="chatbot">
+    
+        <!-- Chatbot Header -->
+        <div class="chatbot-header">
+    
+            <div>
+                <h3>Shiru Concretes</h3>
+                <span>● Online</span>
+            </div>
+    
+            <button id="chatbotClose" aria-label="Close chatbot">
+                ✕
+            </button>
+    
+        </div>
+    
+    
+        <!-- Chat Messages -->
+        <div class="chatbot-messages" id="chatbotMessages">
+    
+            <div class="bot-message">
+                Hello! 👋 Welcome to <strong>Shiru Concretes</strong>.
+                How can we help you today?
+            </div>
+    
+            <div class="quick-options">
+    
+                <button onclick="sendQuickMessage('What products do you offer?')">
+                    🧱 Our Products
+                </button>
+    
+                <button onclick="sendQuickMessage('I want a quotation')">
+                    💰 Request a Quote
+                </button>
+    
+                <button onclick="sendQuickMessage('How can I contact you?')">
+                    📞 Contact Us
+                </button>
+    
+                <button onclick="sendQuickMessage('Where are you located?')">
+                    📍 Location
+                </button>
+    
+            </div>
+    
+        </div>
+    
+    
+        <!-- Chat Input -->
+        <div class="chatbot-input">
+    
+            <input type="text" id="chatbotInput" placeholder="Type your message..." autocomplete="off">
+    
+            <button id="chatbotSend">
+                ➤
+            </button>
+    
+        </div>
+    
+    </div>
+<script src="scripts.js/products.js"></script>
+<script src="scripts.js/chat.js"></script>
 </body>
+</html>
