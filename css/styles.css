@@ -526,10 +526,32 @@ footer {
     .products-section,
     .projects-section {
         padding: 35px 5%;
+      
     }
 
     .products-section h2,
     .projects-section h2 {
         font-size: 27px;
     }
+}
+@media (max-width: 768px) {
+
+    .navbar {
+        width: 100%;
+        padding: 15px 20px;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
 }
