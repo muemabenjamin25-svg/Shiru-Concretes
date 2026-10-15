@@ -1,11 +1,9 @@
-
-
-    const menuToggle = document.querySelector(".menu-toggle");
-    const navLinks = document.querySelector(".nav-links");
+const menuToggle = document.querySelector(".menu-toggle");
+const navLinks = document.querySelector(".nav-links");
 
 menuToggle.addEventListener("click", () => {
 
-        navLinks.classList.toggle("active");
+    navLinks.classList.toggle("active");
 
     const isOpen = navLinks.classList.contains("active");
 
@@ -17,18 +15,18 @@ menuToggle.addEventListener("click", () => {
 
 
 // Close menu when a navigation link is clicked
-
 document.querySelectorAll(".nav-links a").forEach(link => {
 
-        link.addEventListener("click", () => {
+    link.addEventListener("click", () => {
 
-            navLinks.classList.remove("active");
+        navLinks.classList.remove("active");
 
-            menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.setAttribute("aria-expanded", "false");
 
-            menuToggle.innerHTML = "☰";
+        menuToggle.innerHTML = "☰";
 
-        });
+    });
 
 });
 
+   
